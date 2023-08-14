@@ -78,6 +78,6 @@ function sayMyName(name){
 
 function greeting(name){
     greet= 'Hi' + name + 'Its me .How you doin?' 
-    console.log('Hi name,Its me .How you doin?')
+    console.log(greet)
 }
 greeting('Shreya');
