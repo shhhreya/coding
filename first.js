@@ -63,6 +63,7 @@ if(weather == 'rainy'){
 //they always return boolean- true or false
 
 //Functions
+//function called sayMyName has 0 arguments
 /*function sayMyName(){
     console.log('Shreya')
     console.log('Komal')
@@ -71,13 +72,22 @@ if(weather == 'rainy'){
 sayMyName(); yesto garda chai console ma gara function lai call garna parxa to see the output*/ 
 
 //Or It can also be done as
-function sayMyName(name){
-    console.log(name)
-}
+//this function has 1 argument
+//function sayMyName(name){
+  //  console.log(name)}
 //sayMyName('Shreya');
 
 function greeting(name){
-    greet= 'Hi' + name + 'Its me .How you doin?' 
+    //greet= 'Hi ' + name + ' Its me .How you doin?' 
+    //template literals 
+    greet=`Hi ${name} Its me .How you doin?`
     console.log(greet)
 }
 greeting('Shreya');
+
+function sum(a ,b){
+    return a+b
+} 
+//yetikai garda ni vayo sum ko or u can also do this
+num = sum(1,3)
+console.log(num)
