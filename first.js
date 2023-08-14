@@ -68,4 +68,4 @@ function sayMyName(){
     console.log('Komal')
     //function vitra jati pani code xa call garda sapai run hunxa
 }
-//sayMyName();
+//sayMyName(); yesto garda chai console ma gara function lai call garna parxa to see the output 
