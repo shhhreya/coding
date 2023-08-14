@@ -1,6 +1,6 @@
 //prompt vaneko chai user input lina
 
-fruit = prompt('What is your favourite fruit?');
+/*fruit = prompt('What is your favourite fruit?');
 console.log(fruit);
 alert(fruit);
 
@@ -34,3 +34,30 @@ ceil-Math.ceil() method round the number to the nearest integer and returns the 
 random-Math.random() method returns a random number between 0(inclusive) and 1 (exclusive)
 Math.ranodm()*3 gives all random values between 0 and 3
 */
+
+/*let weather = 'rain';
+if (weather == 'rain'){
+    console.log('Grab your Umbrella ☔');
+}
+if(weather == 'sunny'){
+    console.log('Grab your Sunglasses 😎');
+}*/
+/*let weather = 'rain';
+if (true){
+    console.log('Grab your Umbrella ☔');
+}
+else {
+    console.log('Grab your Sunglasses 😎')
+}*/
+
+let weather = prompt ("Hows the weather outside?");
+if (weather=="rain"){
+    console.log('Grab your Umbrella');
+}
+else{
+    console.log('Grab your sunglasses');
+}
+//conditional operators
+// ==,===,>,<,<=,>=,!=,!==
+//condtional are used in statements to comapre variables values and/or data types.
+//they always return boolean- true or false
