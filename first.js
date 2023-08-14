@@ -63,9 +63,21 @@ if(weather == 'rainy'){
 //they always return boolean- true or false
 
 //Functions
-function sayMyName(){
+/*function sayMyName(){
     console.log('Shreya')
     console.log('Komal')
     //function vitra jati pani code xa call garda sapai run hunxa
 }
-//sayMyName(); yesto garda chai console ma gara function lai call garna parxa to see the output 
+sayMyName(); yesto garda chai console ma gara function lai call garna parxa to see the output*/ 
+
+//Or It can also be done as
+function sayMyName(name){
+    console.log(name)
+}
+//sayMyName('Shreya');
+
+function greeting(name){
+    greet= 'Hi' + name + 'Its me .How you doin?' 
+    console.log('Hi name,Its me .How you doin?')
+}
+greeting('Shreya');
