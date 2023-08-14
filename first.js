@@ -57,37 +57,34 @@ if(weather == 'rainy'){
 } else{
     console.log('Grab your sunglasses')
 }
+
+ weather=prompt("How is the weather?")
+if(weather =="rainy"){
+    console.log("Take an Umbrella");
+    alert("Take an Umbrella");
+}
+else if(weather =="sunny"){
+    console.log("Wear a Sunglasses");
+    alert("Wear a Sunglasses");
+}
+else{
+    console.log("Stay in house");
+    alert("Stay in house");
+}
 //conditional operators
 // ==,===,>,<,<=,>=,!=,!==
 //condtional are used in statements to comapre variables values and/or data types.
-//they always return boolean- true or false
+//they always return boolean- true or false*/
 
-//Functions
-//function called sayMyName has 0 arguments
-/*function sayMyName(){
-    console.log('Shreya')
-    console.log('Komal')
-    //function vitra jati pani code xa call garda sapai run hunxa
-}
-sayMyName(); yesto garda chai console ma gara function lai call garna parxa to see the output*/ 
+food=Number(prompt('How much was the food?'));
+tipPercentage=Number(prompt('percent you want to tip based on food')/100);
+tipAmount= food*tipPercentage;
+console.log(tipAmount);
 
-//Or It can also be done as
-//this function has 1 argument
-//function sayMyName(name){
-  //  console.log(name)}
-//sayMyName('Shreya');
+//alert vaneko chai value dekhauna lai alert box ma 
+alert(tipAmount);
 
-function greeting(name){
-    //greet= 'Hi ' + name + ' Its me .How you doin?' 
-    //template literals 
-    greet=`Hi ${name} Its me .How you doin?`
-    console.log(greet)
-}
-greeting('Shreya');
+//directly plus garda concatenate garxa
 
-function sum(a ,b){
-    return a+b
-} 
-//yetikai garda ni vayo sum ko or u can also do this
-num = sum(1,3)
-console.log(num)
+totalAmount= food + tipAmount ;
+alert(totalAmount);
