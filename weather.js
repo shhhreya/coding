@@ -5,12 +5,20 @@ if (weather == 'rain'){
 if(weather == 'sunny'){
     console.log('Grab your Sunglasses 😎');
 }*/
-let weather = prompt('Whats the weather like?');
+/*let weather = 'rain';
 if (true){
     console.log('Grab your Umbrella ☔');
 }
 else {
     console.log('Grab your Sunglasses 😎')
+}*/
+
+let weather = prompt ("Hows the weather outside?");
+if (weather=="rain"){
+    console.log('Grab your Umbrella')
+}
+else{
+    console.log('Grab your sunglasses')
 }
 //conditional operators
 // ==,===,>,<,<=,>=,!=,!==
