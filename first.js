@@ -65,5 +65,7 @@ if(weather == 'rainy'){
 //Functions
 function sayMyName(){
     console.log('Shreya')
+    console.log('Komal')
+    //function vitra jati pani code xa call garda sapai run hunxa
 }
-sayMyName();
+//sayMyName();
