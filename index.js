@@ -15,6 +15,21 @@ alert(tipAmount);
 totalAmount= food + tipAmount ;
 alert(totalAmount);
 
+/*datatypes (string,numbers)
+numbers 1,2,3,4,5...
+strings 'hello','hi' etc
+arrays []
+objects {}
+boolean true/false
+
+#Math method
+floor-Math.floor() method rounds the number down to the nearest integer, and returns the result.
+
+ceil-Math.ceil() method round the number to the nearest integer and returns the result.
+
+random-Math.random() method returns a random number between 0(inclusive) and 1 (exclusive)
+Math.ranodm()*3 gives all random values between 0 and 3
+*/
 
 
 
