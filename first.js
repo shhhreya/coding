@@ -50,7 +50,7 @@ else {
     console.log('Grab your Sunglasses 😎')
 }*/
 
-let weather = prompt("How's the weather outside?")
+/*let weather = prompt("How's the weather outside?")
 
 if(weather == 'rainy'){
     console.log('Grab your Umbrella')
