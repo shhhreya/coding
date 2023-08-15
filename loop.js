@@ -1,0 +1,115 @@
+//For loop
+
+const fruits= ['🍇','🍉','🍎','🥭','🍌','🍐']
+//fruits.length runs for the same amount of time that there are items on the array.
+//for loop is the basic one and shouldnt use it 
+//for(i=0 ; i<fruits.length ; i++){
+
+//that i gives the number of array it isnt mandatory but if u need number use it.
+ //   console.log(i,fruits[i])}
+
+//here fruits is the array name which consists of all the elments and
+//fruit can be said as a random name that is given at first the fruit denotes first elemnt of the array 
+//at the second time it denotes the second elemnt likewise it covers all the elements of an array one by one
+
+
+//For Of loop
+//for (const fruit of fruits){
+   // console.log(fruit)}
+
+//try
+
+//creating a function
+//const double=(numbers) => {
+
+//let result = []
+//const numbers=[1,2,3,4,5,6]
+//for( const number of numbers){
+    //double the number in an array
+    //console.log(number*2)
+    
+    //to double the number and let the output be in array form
+
+    //const res=(number*2)
+    //result.push(res)
+
+    //or can be also done as
+    //result.push(number*2) 
+    //NOTE square garna lai ** use garne instead of ^}
+//return result;}
+    //console.log(double([1,2,3,4,5,6]))
+
+
+ //for in loop   
+
+ // no parameter or 0 arguments
+    /*const letterCounter = () => {
+        const phrase ='Hey,Can we hangout tonight?'
+        let result=0
+        for(const index in phrase){
+
+        //console.log(Number(index)+1)
+        //+1 gareko because counting 0 bata start hunxa
+        result=Number(index)+1
+        }
+        //we can return result as an object as well by using squiggles
+        //return{result}
+        return result
+    }
+   // const phrase ='Hey,Can we hangout tonight?'
+  console.log(letterCounter())*/
+
+
+  //1 argument
+ //check in html file
+ // const letterCounter = (phrase) => {
+    
+ //   let result=0
+   // for(const index in phrase){
+
+    //console.log(Number(index)+1)
+    //+1 gareko because counting 0 bata start hunxa
+  //  result=Number(index)+1
+   // }
+    //we can return result as an object as well by using squiggles
+    //return{result}
+   // return result}
+//   const phrase = prompt("Write your phrase.")
+//console.log(letterCounter(phrase))
+
+
+//Sum of numbers in an array
+const sumArray = (numbers) => {
+    
+    let result=0;
+    for(const num of numbers){
+        result +=num
+    }
+   
+    return result
+}
+const nums=[1,2,3,4,5]
+console.log(sumArray(nums))
+
+
+
+
+
+
+
+
+
+
+
+
+
+//practise
+const sumArray1 = (numberss) => {
+    let result=0;
+  for(const num of numberss){
+    result += num
+  }
+  return result;
+}
+const numb =[1,2,3]
+console.log(sumArray(numb))
