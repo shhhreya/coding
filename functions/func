@@ -19,21 +19,21 @@ sayMyName(); yesto garda chai console ma gara function lai call garna parxa to s
     greet=`Hi ${name} Its me .How you doin?`
     console.log(greet)
 }
-greeting('Shreya');
+greeting('Shreya');*/
 
-function sum(a ,b){
+/*function sum(a ,b){
     return a+b
 } */
 //yetikai garda ni vayo sum ko or u can also do this
 //num = sum(1,3)
 //console.log(num)
 
-function calculateFood(food, tipPer){
-//food=food
-tipPercentage= (tipPer/100);
-tipAmount= food*tipPercentage;
+function calculateFood(food, tip){
+tipPercentage= tip/100;
+tipAmount= food * tipPercentage;
 
-totalAmount= sum(food, tipPer) ;
-return totalAmount;
+total = sum(food, tipAmount ) ;
+return total;
 }
-console.log(totalAmount);
+console.log(calculateFood(100, 20));
+

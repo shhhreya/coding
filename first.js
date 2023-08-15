@@ -76,7 +76,7 @@ else{
 //condtional are used in statements to comapre variables values and/or data types.
 //they always return boolean- true or false*/
 
-food=Number(prompt('How much was the food?'));
+/*food=Number(prompt('How much was the food?'));
 tipPercentage=Number(prompt('percent you want to tip based on food')/100);
 tipAmount= food*tipPercentage;
 console.log(tipAmount);
@@ -87,4 +87,5 @@ alert(tipAmount);
 //directly plus garda concatenate garxa
 
 totalAmount= food + tipAmount ;
-alert(totalAmount);
+alert(totalAmount);*/
+
