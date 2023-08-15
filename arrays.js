@@ -26,10 +26,10 @@ console.log(shopping);
 
 //Array indexOf
 //gives the index value of an element.
-console.log(shopping.indexOf('🍪'));
+//console.log(shopping.indexOf('🍪'));
 
 
 //Array length
 //Length gives the number of elements you have given in an array .
 //Counting starts from 1 itself in the context of length
-console.log(shopping.length);
+//console.log(shopping.length);
