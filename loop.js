@@ -92,17 +92,6 @@ const nums=[1,2,3,4,5]
 console.log(sumArray(nums))
 
 
-
-
-
-
-
-
-
-
-
-
-
 //practise
 const sumArray1 = (numberss) => {
     let result=0;
