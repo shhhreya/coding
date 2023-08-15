@@ -102,3 +102,5 @@ const sumArray1 = (numberss) => {
 }
 const numb =[1,2,3]
 console.log(sumArray(numb))
+
+
