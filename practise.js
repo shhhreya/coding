@@ -19,7 +19,7 @@ console.log(math)
 const hourToSecond =(hours) => {
     console.log(hours)
 let second = (hours * 60) * 60
-return second
+return {second}
 }
 const userInput = prompt("Convert hour to second")
 console.log(hourToSecond(userInput))
