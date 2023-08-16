@@ -124,15 +124,66 @@ const letterFrequency = (phrase) => {
   console.log(phrase)
   //make a `frequency` object
   let frequency = {}
-  for(const letter of phrase){ 
+ for(const letter of phrase){ 
     //check if letter exists in frequency
     if (letter in frequency){
      //if it exist then increment the calue by 1 else set the value to 1 
-     frequency[letter] = frequency[letter]+1
+     frequency[letter] += 1
     } else {
-      frequency [letter]=1
+      frequency [letter] = 1
     }
   } 
   return frequency
 }
-console.log(letterFrequency('haha'))
+//console.log(letterFrequency('haha'))
+
+//incremental operators
+//++,--,+=,+= 1
+
+
+//Word Frequency 
+/*const wordFrequency =(phrase) => {
+  console.log(phrase)
+  //make a frequency object
+  let frequency = 0
+  words = phrase.split(' ')
+    //for loop
+  for(const word in words){
+     /*if (word in frequency){
+      frequency[word] += 1
+     } else {
+      frequency[word] = 1
+     }*/
+    /* frequency = word
+  }
+    return frequency
+}
+console.log(wordFrequency('haha haha haha johnny johnny yes papa'))*/
+
+
+//shortcut to word count
+const wordFrequency =(phrase) => {
+  words = phrase.split(' ')
+  return letterFrequency(words)
+}
+const userInput = prompt('Write your sentence')
+console.log(wordFrequency(userInput))
+
+//total word 
+/*const wordFrequency =(phrase) => {
+  console.log(phrase)
+  //make a frequency object
+  let frequency = 0
+  words = phrase.split(' ')
+    //for loop
+  for(const word in words){*/
+     /*if (word in frequency){
+      frequency[word] += 1
+     } else {
+      frequency[word] = 1
+     }*/
+    // frequency = word
+  //}
+  //  return frequency
+//}
+//console.log(wordFrequency('haha haha haha johnny johnny yes papa'))
