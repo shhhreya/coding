@@ -34,13 +34,3 @@ shopping.push('🍰','🍪','🍫');
 //Counting starts from 1 itself in the context of length
 //console.log(shopping.length);
 
-
-//practise
-
-const hourToSecond =(hours) => {
-    console.log(hours)
-let second = (hours * 60) * 60
-return second
-}
-const userInput = prompt("Convert hour to second")
-console.log(hourToSecond(userInput))
