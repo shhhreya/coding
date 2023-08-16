@@ -14,7 +14,7 @@ const shopping = ['👗','🥻','💅']
 //Array Push
 //push adds one or more element to the end of array and returns new lenghth to the array
 shopping.push('🍰','🍪','🍫');
-console.log(shopping);
+//console.log(shopping);
 //console.log(shopping[4]);
 
 
@@ -33,3 +33,14 @@ console.log(shopping);
 //Length gives the number of elements you have given in an array .
 //Counting starts from 1 itself in the context of length
 //console.log(shopping.length);
+
+
+//practise
+
+const hourToSecond =(hours) => {
+    console.log(hours)
+let second = (hours * 60) * 60
+return second
+}
+const userInput = prompt("Convert hour to second")
+console.log(hourToSecond(userInput))

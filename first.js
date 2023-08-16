@@ -89,8 +89,6 @@ alert(tipAmount);
 totalAmount= food + tipAmount ;
 alert(totalAmount);*/
 
-const random =(numbers) => {
-    
-}
+
 math= Math.floor(Math.random()*8)
 console.log(math)
