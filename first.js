@@ -32,7 +32,7 @@ floor-Math.floor() method rounds the number down to the nearest integer, and ret
 ceil-Math.ceil() method round the number to the nearest integer and returns the result.
 
 random-Math.random() method returns a random number between 0(inclusive) and 1 (exclusive)
-Math.ranodm()*3 gives all random values between 0 and 3
+Math.random()*3 gives all random values between 0 and 3
 */
 
 /*let weather = 'rain';
@@ -89,3 +89,8 @@ alert(tipAmount);
 totalAmount= food + tipAmount ;
 alert(totalAmount);*/
 
+const random =(numbers) => {
+    
+}
+math= Math.floor(Math.random()*8)
+console.log(math)

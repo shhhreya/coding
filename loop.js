@@ -1,6 +1,6 @@
 //For loop
 
-const fruits= ['🍇','🍉','🍎','🥭','🍌','🍐']
+//const fruits= ['🍇','🍉','🍎','🥭','🍌','🍐']
 //fruits.length runs for the same amount of time that there are items on the array.
 //for loop is the basic one and shouldnt use it 
 //for(i=0 ; i<fruits.length ; i++){
@@ -79,21 +79,21 @@ const fruits= ['🍇','🍉','🍎','🥭','🍌','🍐']
 
 
 //Sum of numbers in an array
-const sumArray = (numbers) => {
+/*const sumArray = (numbers) => {
     
     let result=0;
     for(const num of numbers){
         result +=num
     }
    
-    return result
+//    return result
 }
 const nums=[1,2,3,4,5]
-console.log(sumArray(nums))
+console.log(sumArray(nums))*/
 
 
 //practise
-const sumArray1 = (numberss) => {
+/*const sumArray1 = (numberss) => {
     let result=0;
   for(const num of numberss){
     result += num
@@ -101,6 +101,38 @@ const sumArray1 = (numberss) => {
   return result;
 }
 const numb =[1,2,3]
-console.log(sumArray(numb))
+console.log(sumArray(numb))*/
 
 
+const max = (numbers) => {
+    let result = numbers[0];
+
+    //loop 
+
+for (const number of numbers){
+  if (number > result){
+    result = number
+  }
+}
+    return {result}
+}
+//console.log(max([1,2,3,4]))
+
+
+//LetterFrequencyy
+const letterFrequency = (phrase) => {
+  console.log(phrase)
+  //make a `frequency` object
+  let frequency = {}
+  for(const letter of phrase){ 
+    //check if letter exists in frequency
+    if (letter in frequency){
+     //if it exist then increment the calue by 1 else set the value to 1 
+     frequency[letter] = frequency[letter]+1
+    } else {
+      frequency [letter]=1
+    }
+  } 
+  return frequency
+}
+console.log(letterFrequency('haha'))
