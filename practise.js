@@ -1,3 +1,4 @@
+//sum of array
 /*const sumArray1 = (numberss) => {
     let result=0;
   for(const num of numberss){
@@ -8,10 +9,13 @@
 const numb =[1,2,3]
 console.log(sumArray(numb))*/
 
+
+//generating random value
 math= Math.floor(Math.random()*8)
 console.log(math)
 
 
+//Convert hour to second
 const hourToSecond =(hours) => {
     console.log(hours)
 let second = (hours * 60) * 60
@@ -20,7 +24,7 @@ return second
 const userInput = prompt("Convert hour to second")
 console.log(hourToSecond(userInput))
 
-
+//lettercounter
 /*const letterCounter = (phrase) => {
     return {
         result: phrase.length
