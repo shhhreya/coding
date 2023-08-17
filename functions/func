@@ -35,7 +35,7 @@ const tipAmount= food * tipPercentage;
 const total = sum(food, tipAmount ) ;
 return total;
 }
-console.log(calculateFood(100, 20));
+//console.log(calculateFood(100, 20));
 
 //arrow functions
 
@@ -48,7 +48,7 @@ console.log(sumArrow(10,15))
 
 //arrow functions with implicit return
 const sumArrow2 = (a,b) => a+b
-console.log(sumArrow2(10,20))
+//console.log(sumArrow2(10,20))
 
 
 //practise

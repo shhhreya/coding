@@ -156,8 +156,8 @@ const wordFrequency =(phrase) => {
   words = phrase.split(' ')
   return letterFrequency(words)
 }
-const userInput = prompt('Write your sentence')
-console.log(wordFrequency(userInput))
+//const userInput = prompt('Write your sentence')
+//console.log(wordFrequency(userInput))
 
 //total word 
 /*const wordFrequency =(phrase) => {
