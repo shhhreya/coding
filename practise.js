@@ -16,13 +16,13 @@ console.log(math)
 
 
 //Convert hour to second
-const hourToSecond =(hours) => {
-    console.log(hours)
+/*const hourToSecond =(hours) => {
+  console.log(hours)
 let second = (hours * 60) * 60
 return {second}
 }
 const userInput = prompt("Convert hour to second")
-console.log(hourToSecond(userInput))
+console.log(hourToSecond(userInput))*/
 
 //lettercounter
 /*const letterCounter = (phrase) => {
@@ -43,3 +43,10 @@ total = sum(food, tipAmount ) ;
 return total;
 }
 console.log(calculateFood(100, 20));*/
+
+
+//multiplication of numbers in an array
+const nums=[1, 2, 3, 4, 5]
+//const result = nums.reduce((a,b) => a * b , 10) //ouput= 1200
+const result = nums.reduce((a,b) => a * b) //ouput=120
+console.log(result)
