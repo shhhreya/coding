@@ -50,3 +50,21 @@ const nums=[1, 2, 3, 4, 5]
 //const result = nums.reduce((a,b) => a * b , 10) //ouput= 1200
 const result = nums.reduce((a,b) => a * b) //ouput=120
 console.log(result)
+
+     //letter count
+     const wordfrequency=(word)=>{
+      let frequency={}
+      rate =word.split(' ')
+      for(const world of rate){
+        console.log(world)
+        if (world in frequency){
+          frequency[world]++
+        }else{
+          frequency[world]=1
+        }
+      }
+      console.log(rate)
+      return frequency
+    }
+    //const userinput=prompt('write your sentence.')
+    console.log(wordfrequency('haha how you doing'))

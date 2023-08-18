@@ -152,28 +152,28 @@ console.log(wordFrequency('haha haha haha johnny johnny yes papa'))*/
 
 
 //shortcut to word count
-const wordFrequency =(phrase) => {
-  words = phrase.split(' ')
-  return letterFrequency(words)
-}
+//const wordFrequency =(phrase) => {
+ // words = phrase.split(' ')
+  //return letterFrequency(words)
+//}
 //const userInput = prompt('Write your sentence')
 //console.log(wordFrequency(userInput))
 
 //total word 
-/*const wordFrequency =(phrase) => {
+const wordFrequency =(phrase) => {
   console.log(phrase)
   //make a frequency object
-  let frequency = 0
+  let frequency = {}
   words = phrase.split(' ')
     //for loop
-  for(const word in words){*/
+  for(const word in words){
      /*if (word in frequency){
       frequency[word] += 1
      } else {
       frequency[word] = 1
      }*/
-    // frequency = word
-  //}
-  //  return frequency
-//}
-//console.log(wordFrequency('haha haha haha johnny johnny yes papa'))
+     frequency = Number(word) + 1
+  }
+    return frequency
+}
+console.log(wordFrequency('haha haha haha johnny johnny yes papa'))

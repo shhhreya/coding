@@ -1,9 +1,7 @@
 //Higher order function
  // array sorting
- let numbers=[0,1,2,4,5,8,9,66,44,5,3334]
- //numbers.sort((a,b) => {
-  // if(a>b) return 1;
-   //if(a<b) return -1;})
+  numbers=[0,1,2,4,5,8,9,66,44,5,3334]
+  numbers.sort()
  //console.log(numbers)
  
 
@@ -45,6 +43,12 @@ const filter=(numbers,greaterThan)=>{
  //console.log(nums.filter(num => num > 2))
  //OR statement needs to match one of the cndition for output
  //console.log(nums.filter(num => num > 4 || num<  2))
+
+ rsult=[1,2,3,4].filter(number=>number>2) //for condition
+ 
+ console.log(rsult)
+
+
 
  //array of objects
  const actors=[
