@@ -34,3 +34,6 @@ shopping.push('🍰','🍪','🍫');
 //Counting starts from 1 itself in the context of length
 //console.log(shopping.length);
 
+//rnadom selection from array
+//randomFruit([1,2]) ➡️ 2
+//randomFruit([1,2]) ➡️ 1

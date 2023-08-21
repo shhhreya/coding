@@ -68,3 +68,19 @@ console.log(result)
     }
     //const userinput=prompt('write your sentence.')
     console.log(wordfrequency('haha how you doing'))
+
+
+    //practising tipcalculator
+    const bill = document.getElementById('billTotalInput')
+    const tip = document.getElementById('tipInput')
+    const numberOfP = document.getElementById('numberOfPeople')
+    const perPerson= document.getElementById('perpersonTotal')
+
+    let numberOfPeople = Number(numberOfP.innerText) 
+    
+    const calculateBill =() => {
+    result=Number(billInput.value)+Number(tipInput.value/100)*Number(billInput.value)
+    results=result/numberOfPeople
+    perPerson.innerHTML=`$${result}`
+    }
+

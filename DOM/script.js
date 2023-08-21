@@ -42,6 +42,7 @@ squares.forEach(square => {
         timesClicked[square.value]+=1
         square.innerText = timesClicked[square.value]
     }
+    
 })
 
 
@@ -50,6 +51,7 @@ function clearScores() {
     squares.forEach(square => {
         square.innerText=''
     })
+    
 }
 
 
