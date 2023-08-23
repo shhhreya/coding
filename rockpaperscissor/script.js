@@ -64,7 +64,7 @@ function showResult(score, playerChoice, computerChoice) {
   else{
       resultDiv.innerText="Its's a tie!"
   }
-  handsDiv.innerText=`${playerChoice} vs ${computerChoice}`
+  handsDiv.innerText=`🤷${playerChoice} vs 🤖${computerChoice}`
   playerScoreDiv.innerText=`Your Score:${totalScore['playerScore']}`
 // Hint: on a score of -1
 // You should do result.innerText = 'You Lose!'
